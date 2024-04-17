@@ -4,13 +4,61 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+        hr {
+            margin: 10px 0px;
+        }
+        li {
+            margin: 5px;
+        }
+        a {
+            text-decoration: none;
+        }
+        section div {
+            margin: 30px;
+        }
+    </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <header>
+        <h1>3 Random Audios</h1>
+    </header>
+    <nav>
+        <ul type="square">
+            <li><a href="#a1">Audio 1</a></li>
+            <li><a href="#a2">Audio 2</a></li>
+            <li><a href="#a3">Audio 3</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <section>
+        <div>
+            <h3 id="a1">Audio 1</h3>
+            <br>
+            <audio controls src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3"></audio>
+        </div>
+        <div>
+            <h3 id="a2">Audio 2</h3>
+            <br>
+            <audio controls src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg"></audio>
+        </div>
+        <div>
+            <h3 id="a3">Audio 3</h3>
+            <br>
+            <audio controls src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3"></audio>
+        </div>
+    </section>
 
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
